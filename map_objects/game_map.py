@@ -1,5 +1,4 @@
 import tcod as libtcod
-from random import randint
 
 from components.ai import BasicMonster
 from components.fighter import Fighter
@@ -8,6 +7,7 @@ from entity import Entity
 from item_functions import heal
 from map_objects.rectangle import Rect
 from map_objects.tile import Tile
+from random import randint
 from render_functions import RenderOrder
 
 class GameMap:
